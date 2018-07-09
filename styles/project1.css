@@ -1,0 +1,19 @@
+.button {
+  padding: 2rem 4rem;
+  border: 2px solid var(--color, black);
+  background: transparent;
+  font-size: 0.6em;
+  border-radius: 2px;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  cursor: pointer;
+  background: var(--color, black);
+  color: white;
+}
+
+.button--red {
+  --color: red;
+}

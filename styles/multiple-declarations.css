@@ -1,0 +1,15 @@
+:root {
+  --color: blue;
+}
+
+div {
+  --color: green;
+}
+
+#alert {
+  --color: red;
+}
+
+* {
+  color: var(--color);
+}

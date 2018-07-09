@@ -1,0 +1,24 @@
+:root {
+  --color: black;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color);
+  color: white;
+}
+
+p {
+  --color: red;
+  color: var(--color);
+}
+
+span {
+  --color: green;
+}
+
+span.green {
+  color: var(--color);
+}
+
